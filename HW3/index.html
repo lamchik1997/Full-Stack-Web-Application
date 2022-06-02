@@ -1,0 +1,42 @@
+
+    <html>
+    <head>
+    <title>CSE312 Sample Front End</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body onload="welcomeAlert();">
+    <h1>CSE312 Sample Page</h1>
+    <p>
+        Look at this wonderful page! If you want a better page, check out the bonus objective.
+    </p>
+    <p>
+        Here's a flamingo:
+    </p>
+    <img src="image/flamingo.jpg" alt="It's a flamingo" class="my_image" />
+
+        <p> This is form 1: For Objective 1 and 2 </p>
+        <form action="/comment" id="comment-form" method="post" enctype="multipart/form-data">
+        <label for="text-form-name">Name: </label>
+<input value="jDoaLOExWHXYZGwbpMqh" name="xsrf_token" hidden>
+
+        <input id="text-form-name" type="text" name="name"><br/>
+        <label for="form-comment">Comment: </label>
+        <input id="form-comment" type="text" name="comment">
+        <input type="submit" value="Submit">
+        </form>
+        <p> This is form 2: for file upload.</p>
+        <form action="/image-upload" id="image-form" method="post" enctype="multipart/form-data">
+        <label for="form-file">Image: </label>
+        <input id="form-file" type="file" name="upload">
+<input value="jDoaLOExWHXYZGwbpMqh" name="xsrf_token" hidden>
+
+        <br/>
+        <label for="image-form-name">Caption: </label>
+        <input id="image-form-name" type="text" name="caption">
+        <input type="submit" value="Submit">
+        </form>
+        <h3> The following is the user input: </h3>
+    
+    <script src="functions.js"></script>
+    </body>
+    </html>

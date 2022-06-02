@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25c770fe-fce2-4c81-8908-05507ffc7ac2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1pqhMldAgIRf4c0QGUpV6EwhT9p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sample_page" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25c770fe-fce2-4c81-8908-05507ffc7ac2" name="Default Changelist" comment="" />
+      <created>1615916482136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615916482136</updated>
+      <workItem from="1615916485215" duration="872000" />
+      <workItem from="1616020318169" duration="9239000" />
+      <workItem from="1616037162814" duration="7722000" />
+      <workItem from="1616086089753" duration="4339000" />
+      <workItem from="1616109101456" duration="510000" />
+      <workItem from="1616109617205" duration="15054000" />
+      <workItem from="1616133423761" duration="1470000" />
+      <workItem from="1616202319356" duration="11274000" />
+      <workItem from="1616262016668" duration="2681000" />
+      <workItem from="1616350055986" duration="9847000" />
+      <workItem from="1616374691414" duration="3818000" />
+      <workItem from="1616446977567" duration="1194000" />
+      <workItem from="1616519292894" duration="4133000" />
+      <workItem from="1616527152787" duration="1604000" />
+      <workItem from="1616565261136" duration="2590000" />
+      <workItem from="1616607454706" duration="94000" />
+      <workItem from="1616619557254" duration="1032000" />
+      <workItem from="1616642437111" duration="1648000" />
+      <workItem from="1616681311799" duration="181000" />
+      <workItem from="1616690831440" duration="1651000" />
+      <workItem from="1616735776023" duration="279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="291" key="GridCell.Tab.0.bottom" timestamp="1616681499615">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616306594086" />
+    <state width="1398" height="291" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1616681499615" />
+    <state width="1398" height="291" key="GridCell.Tab.0.center" timestamp="1616681499615">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="157" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616306594084" />
+    <state width="1398" height="291" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1616681499615" />
+    <state width="1398" height="291" key="GridCell.Tab.0.left" timestamp="1616681499615">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="157" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616306594083" />
+    <state width="1398" height="291" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1616681499615" />
+    <state width="1398" height="291" key="GridCell.Tab.0.right" timestamp="1616681499615">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="157" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616306594085" />
+    <state width="1398" height="291" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1616681499615" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1616363925710">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616132226505" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1616363925710" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1616363925710">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1616132226504" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1616363925710" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1616363925710">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1616132226504" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1616363925710" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1616363925710">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1616132226505" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1616363925710" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1616206277831">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1616206277831" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sample_page$server.coverage" NAME="server Coverage Results" MODIFIED="1616681311580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
