@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 25px;
+    padding: 25px 0;
+    /* text-decoration:plum wavy underline; */
+}
+p{
+    line-height: 2;
+}
+
+
+h2{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+#welcome{
+    color: powderblue;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    text-shadow:2px 2px 2px darkgrey;
+    font-size: 40px;
+}
+
+body{
+    color: white;
+    background-color: #333232;
+}
+img{
+    display: inline;
+    border-radius: 10px;
+    padding:10px 0;
+    margin: 20px 20px;
+}

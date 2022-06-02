@@ -1,0 +1,44 @@
+
+        <html>
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HW4 Web socket </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        </head>
+        <body>
+        <h1>CSE312 Sample Page</h1>
+        <p>
+        Welcome back, monica
+    </p>
+    <h2>Use the form below to register</h2>
+    <form action="/register" method="post" enctype="multipart/form-data">
+                        <label for="text-form-username">username: </label>
+                        <input id = "text-form-username" type="text" name="username" placeholder="Username" required><br/>
+                        <label for="text-form-password">password: </label>
+                        <input id="text-form-password"  type="text" name="password" placeholder="Enter Password" required><br/>
+                        <p>Your password must contain:</p>
+    <p>A minimum length of 8.</p>
+    <p>At least 1 lowercase character.</p>
+    <p>At least 1 uppercase character.</p>
+    <p>At least 1 number.</p>
+    <p>At least 1 special character.</p>
+    <p>At least 3 or more unqiue character</p>
+                        <label for="text-form-confirmpassword">confirm password: </label>
+                        <input id="text-form-confirmpassword" type="text" name="confirmpassword" placeholder="Verify Password" required><br/>
+                        <input type="submit" value="Submit">
+    </form>
+    <h2>Use the form below to login! </h2>
+    <form action="/login" method="post" enctype="multipart/form-data">
+   <label for="text-form-username">Username: </label>
+   <input id="text-form-username" type="text" name="username"><br/>
+   <label for="form-password">password: </label>
+   <input id="form-password" type="text" name="password">
+
+   <input type="submit" value="Submit">
+    </form>
+    
+    </body>
+    </html>
+    

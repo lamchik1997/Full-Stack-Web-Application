@@ -1,0 +1,19 @@
+      Report for HW5 312
+
+Objective 1: First Visit Cookie
+
+The goal for this objective is to use a cookie to give your users a different experience when they visit your site for the first time.To implement this, I will keep track of the cookie in my cookie data base. When the server received a get request, it will first parse the header to see if there is any exiting cookie in the header. I made a helper function to achieve this. If we didn't found the cookie , then it will generate a new cookie for the user, which is just a random string. I made a helper function generateNewCookie() to implement this. If it's a new user, we first generate cookie and use my html template to greet the user and edit the http response using set cookies, else I will use my html template to welcome back the user.
+
+
+Objective 2+3: Authentication
+
+The goal for this objective is when a user sends a registration request, store their username and a salted hash of their password in your database.When a user sends a login request, authenticate the request based on the data stored in your database. If the [salted hash of the] password matches what you have stored in the database, the user is authenticated. When a user is authenticated, display this message on the page that loads when the form is submitted. First I edit my html template to include two simple form, one for login and other one for register. I used the multi-part-form to sent the form( which is just reusing my code for hw3) .After parsing the form, I will first check if the username and password is in the form or not.If not, I will return 404 response. Then I will check if the user input for two of the password match or not, if not, I will also return 404 response. Then to validate if the user password satisfy the password requirement, I made a helper function checkValidPassword , if the password is valid , it will return true ,else it will return false. If the password is not valid, I will return 404 with a message to user indicate that the input password is not valid .Else if the password is good, I will store the username and hashed password to the userInfo database. To achieve this, I also made a helper function storeToDB. Then I will edit my html template indicate to user they are successfully register and send back the response.
+
+For the login section, It is similar to register, I will used the multi-part-form to sent the form( which is just reusing my code for hw3). First I will find the user in my database using their inputed username. When we found the user, I will get their hashed password and also the salt. Then I will use the user provided password and attach the salt to it and compute the hashed password, If two of the password match, then I will allow user to login . Meanwhile, I will check if the user was assigned to a session cookie or not,  if not, I will assign the user an session cookie, and insert the cookie to our database. Else if the user already have a session cookie, I will validated the session cookie in the header is match with the one in the database or not, If not, I will also assign another session cookie to the user. At the end, if we can't find the username in our database, server will return a message with incorrect username and send back the response to client.
+
+
+
+ 
+
+
+

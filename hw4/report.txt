@@ -1,0 +1,18 @@
+﻿      Report for HW4 312
+
+Objective 1: WebSocket Handshake
+
+The goal for this objective is to implement the handshake of the WebSocket protocol at the path “/websocket”. First I will read the path and get the request path , if the path is equal to /websocket, it will first decode the header using my parse header function (parse_header). Next I will het the Sec-WebSocket-Key from the returned header dictionary and pass this to computeHash function to compute the hash value for me . After getting the base 64 key, I will pass it to the build 101 switching protocols which will build the http 101 response. Next I will call self.request to send this response to the connected client which established the Web Socket Handshake. 
+
+
+Objective 2+3+4: Websocket Chat
+
+I will parse WebSocket frames that are received from any open WebSocket connection, parse the bits of the frame to read the payload, then send a WebSocket frame to all connected WebSocket clients containing the new message. To make this happened, I will put my code in a while True loop, which is a infinite loop. I will call the request.recv function which will received the frame from the client. If there is an new client request, and the client is not in my list yet, I will append the client sockets to my clients_socket list. Next I will compute the payload length by calling my function computepayloadlength(). I used the bit manipulation to compute and return the payload length.Next ,I will call the computeMask function to get the mask from the frame also using the bit manipulation. After that I will call the computeOriginalMessage and pass the payload, payload length and the mask to the function. To get the unmarked message, I will compute it byte by byte using the and operation to unmask the payload data. This function will return both the byte payload data and the ascii string payload data for the security checking purpose. Then I will use the check and replace function to escape the html character. It will also update the payload length if needed.
+After that, my function will call sentBackFrame to construct the Frame and sent back to the client.
+After construct the frame, I will also store the frame to my database. Then for all the socket in my client_socket, I will send the frame to them. 
+
+
+ 
+
+
+

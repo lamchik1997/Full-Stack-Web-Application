@@ -1,0 +1,15 @@
+# set base image (host OS)
+FROM python:3.8.2
+ENV HOME /root
+# set the working directory in the container
+WORKDIR /root
+COPY . .
+# install dependencies
+RUN pip install -r requirements.txt
+# copy the content of the local src directory to the working directory
+EXPOSE 8000
+ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.2.1/wait /wait
+RUN chmod +x /wait
+# command to run on container start
+# CMD ["/wait","python3","server.py"]
+CMD /wait && python3 server.py

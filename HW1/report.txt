@@ -1,0 +1,15 @@
+﻿Objective 1: Docker:
+To set up the docker, I first made a dockerfile in the root directory. Instead of using ubuntu for
+my base images, I choose to use a python image to make thing simpler. Next, I set the home directory to root and also set the working directory as root. Next, I copied all my app file into the images. Then, I downloaded the dependencies and expose port 8000 to be accessed from outside the container. Finally, I use CMD to run the app.
+Next step is to build the Docker Containers, I build the docker image by run “docker build -t myimage” in the command line. Next I create a docker container by run “docker container run –publish 8000:8000 myimage” I mapped my local port 8000 to the image port 8000. Then I successfully connect to my server using docker container.
+
+Objective 2: Hello World:
+To implement this objective, I use the python library import the socketserver to handle the TCP socket. When user send a GET request to the server. I first decode the message , convert it from byte array to string. Next I get the request line by using method strip on every “\r\n”. Then ,I pass the path of the request to my helper function decode_content(path).Since all the response should have the same version , I first set the version to be “HTTP/1.1” . I check the path of the request, if the path is equal to ‘/hello’, I set the content to be “Hello World”, status to be “200 OK” and content type is “text/plain” and the content length to be length of the content. Then I packed all the information above and return it to the handler. Then the handler will encode the response and send the HTTP response.
+
+Objective 3: 301 Redirect:
+ To implement this objective, it is quite similar to object 2, the difference is that once I checked the path if it’s equal to ‘/hi’, I will change the status to “301 Moved Permanently” and the location to ‘/hello’ . Then I will packed the response and sent it back to the handler. Then the handler will encode the response and send the HTTP response.
+
+Objective 4: 404 Not Found
+For this objective, if the path is neither ‘/hi’ nor ‘/hello’ ,then it will be 404 not found. I set the status to ‘404 Not Found’ .Content-Type is also ‘text/plain’. And content is set to “The content was not found” .The content length is also the length of the content. Then I will packed all the information above and return it to the handler. Then the handler will encode the response and send the HTTP response.
+
+
